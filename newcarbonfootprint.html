@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GO Green - Reducing GHG emissions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content= "" name="description">
+    <link href='https://fonts.googleapis.com/css?family=Hind Siliguri' rel='stylesheet'>
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<style>
+    .containerscontainer{
+      /* margin-left: 40%;  */
+    }
+    .newcontainer{
+      margin-top: 5%;
+      background-color: rgb(143, 201, 56);
+      color: white;
+      border-radius: 20px;
+      width: 50%;
+    }
+    .newcontainer h1{
+      padding-top: 25px;
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Kanit';
+      text-align: center;
+      font-size: 3rem;
+    }
+    input{
+      width: 15rem;
+      height: 35px;
+      border-radius: 5px; 
+      border: none;
+      text-align: center;
+      font-weight: bold;
+    }
+    input::placeholder{
+      text-align: center;
+      font-size: 1rem;;
+    }
+    .insidetext{
+      /* border: 1px solid black; */
+      /* width: 1000px; */
+      /* margin: 0% 30%; */
+      font-family: 'Jost';
+    }
+    button{
+      height: 2rem;
+      border-radius: 5px;
+      border: 1px solid green;
+      background-color:rgb(132, 169, 85) ;
+      color: white;
+      font-weight: bold;
+    }
+    .resultcontainer h3, .resultcontainer h2{
+      font-family: 'Jost';
+    }
+
+  </style>
+
+
+
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <h1 class="m-0 text-primary">GO Green</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Donations</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="job-list.html" class="dropdown-item">Job List</a>
+                            <a href="job-detail.html" class="dropdown-item">Job Detail</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Join Green Community</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="category.html" class="dropdow
+                            n-item">Job Category</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="404.html" class="dropdown-item">404</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Calculate your Carbon Footprint<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+
+
+        
+      <div class="containerscontainer">
+        <center>
+        <div class="newcontainer">
+            <h1>Carbon Emmision Calculator</h1>
+            <center>
+            <div class="insidetext">
+            <h3>What is your car's MPG?</h3>
+            <input id='mpg' type='number' placeholder='Insert MPG'/>
+            <h3>What is the total commute distance? (in miles)</h3>
+            <input id='dist' type='number' placeholder='Insert Distance'/>
+          <h3>How often is this trip per week?</h3>
+            <input id='trips' type='number' placeholder='Insert Trips'/>
+            <br/>
+            <br/>
+            <button class='btn-secondary rounded-sm' onclick='calcCO2()'>Calculate Carbon Footprint</button>
+          <br>
+          <br>
+          </div>
+        </center>|
+        </div>
+
+        
+        <br/>
+        <div class='container text-center resultcontainer' >
+            <h1>Your Carbon Emissions:</h1>
+            <h1 id='result4' class='bg-success rounded-lg'></h1>
+            <h3>g CO2e / mile</h3>
+          <br/>
+            <h2>Your Carbon Footprint this trip is:</h2>
+            <h1 id='result' class='bg-success rounded-lg'></h1>
+            <h3>kg CO2e</h3>
+          <br/>
+           <h2>Your Carbon Footprint per week is:</h2>
+            <h1 id='result2' class='bg-success rounded-lg'></h1>
+            <h3>kg CO2e</h3>
+                    <br/>
+           <h2>Your Carbon Footprint per year is:</h2>
+            <h1 id='result3' class='bg-success rounded-lg'></h1>
+            <h3>kg CO2e</h3>
+        </div>
+      </div>
+    </center>
+        
+        <script>
+            var res = document.getElementById('result');
+            var res2 = document.getElementById("result2");
+            var res3 = document.getElementById("result3");
+            var res4 = document.getElementById("result4");
+            var mpg = document.getElementById('mpg');
+            var dist   = document.getElementById('dist');
+            var trip = document.getElementById('trips');
+            function calcCO2() {
+                var x = mpg.value;
+                var y = dist.value;
+                var z = trips.value;
+                var calc4 = (8.8/x)*1000;
+                var calc = (calc4 * y)/1000;
+                var calc2 = (calc * z);
+                var calc3 = (calc2*52);
+                calc = calc.toFixed(2);
+                calc2 = calc2.toFixed(2);
+                calc3 = calc3.toFixed(2);
+                calc4 = calc4.toFixed(1);
+                console.log('calc is: ' + calc);
+                res.innerHTML = calc;
+                res2.innerHTML = calc2;
+                res3.innerHTML = calc3;
+                res4.innerHTML = calc4;
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
